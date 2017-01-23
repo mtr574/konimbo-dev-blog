@@ -1,0 +1,30 @@
+.well {
+  background: #fff;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+}
+ul.side-nav {
+	width: 140px;
+	margin-top: 20px;
+  border: 0;
+}
+ul.side-nav li a {
+	padding: 2px 16px 0 0;
+  transition: 300ms;
+  &:hover {
+    background: #fff;
+    text-decoration: underline;
+    transition: 300ms;
+  }
+}
+ul.side-nav li.active a,
+ul.side-nav li.active a:hover {
+	color: #000;
+  text-decoration: underline;
+  border: 0;
+  border-radius: 0;
+}
+ul.side-nav.affix {
+	top: 20px;
+}
