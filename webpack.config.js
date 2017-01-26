@@ -1,6 +1,6 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const webpack = require('webpack');
-var path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin'),
+    webpack = require('webpack'),
+    path = require('path');
 
 module.exports = {
     entry: './script/app.jsx',
@@ -9,16 +9,14 @@ module.exports = {
         filename: 'app.bundle.js'
     },
     module: {
-        loaders: [
-            {
-                test: /\.jsx$/,
-                exclude: /node_modules/,
-                loader: 'babel-loader',
-                query: {
-                    presets: ['react']
-                }
+        loaders: [{
+            test: /\.jsx$/,
+            exclude: /node_modules/,
+            loader: 'babel-loader',
+            query: {
+                presets: ['react']
             }
-        ]
+        }]
     },
     plugins: [
         new webpack.DefinePlugin({
