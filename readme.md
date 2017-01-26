@@ -6,3 +6,4 @@ This is a ReactJS application to generate dynamic informative pages.
 
 ## Hosting
 Hosted with Firebase.
+https://konimbo-docs.firebaseapp.com

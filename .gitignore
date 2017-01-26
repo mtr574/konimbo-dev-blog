@@ -50,3 +50,4 @@ jspm_packages
 firebase.json
 database.rules.json
 public/
+.firebaserc
