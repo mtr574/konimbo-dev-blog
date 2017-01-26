@@ -46,6 +46,9 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
+# Bower
+bower_components
+
 # Webpack build
 script/dist
 
