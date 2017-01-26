@@ -46,6 +46,9 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
+# Webpack build
+script/dist
+
 # Firebase
 firebase.json
 database.rules.json

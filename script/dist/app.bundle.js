@@ -54,7 +54,7 @@
 	            null,
 	            React.createElement(
 	                'a',
-	                { href: '#section-{item.props.name}' },
+	                { href: '#section-{item.props.label}' },
 	                this.props.label
 	            )
 	        );

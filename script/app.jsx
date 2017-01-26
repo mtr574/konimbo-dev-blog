@@ -5,7 +5,7 @@ class MenuGenerator extends React.Component {
     render() {
         return (
             <li>
-                <a href="#section-{item.props.name}">{this.props.label}</a>
+                <a href="#section-{item.props.label}">{this.props.label}</a>
             </li>
         );
     }
